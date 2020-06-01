@@ -1,0 +1,85 @@
+  
+
+   #pricing{
+   
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('../../assets/first.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   }
+
+
+
+   #pricing .price{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+   }
+
+     .price{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 15px;
+     }
+
+     .price>div{
+      text-align: center;
+      background-color: #fff;
+       box-shadow: 3px 10px 5px #aaaaaa;
+     }
+     .plan-heading{
+      padding: 7px;
+      background-color: pink;
+      color: #fff;
+      transform: skewY(-2deg);
+     }
+     .rate{
+      font-size: 14px;
+      color: #333;
+     }
+    .plan-detail {
+      text-align: center;  
+    }
+    .plan-btn{
+      width: 50%;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .plan-btn:hover{
+      background-color: pink;
+      transition: .8s;
+      color: #fff;
+    }
+
+        button{
+      background-color: #fff;
+      cursor: pointer;
+      color: rgb(83, 83, 83);
+      border-radius: 30px;
+      padding: 15px;
+      border: 2px solid pink;
+      font-weight: bold;
+      width: 30%;
+      margin-bottom: 25px;
+     }
+  
+
+    @media (max-width: 768px){
+
+      #pricing .price{
+        display: block;
+        width: 95%;
+       margin-left: auto;
+       margin-right: auto;
+      
+     
+      }
+
+        .plan-heading{
+      padding: 3px;
+      background-color: pink;
+      color: #fff;
+       transform: skewY(0deg);
+     }
+
+  }
