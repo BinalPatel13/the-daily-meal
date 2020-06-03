@@ -7,7 +7,7 @@
     height: 100vh;
    }
    
-   #fancy-form .container{
+  .container{
      width: 80%;
      margin: auto;
      overflow: hidden;
@@ -32,7 +32,7 @@
      color: rgb(243, 235, 235);
    }
    .line{
-     border-bottom: 2px solid rgb(12, 168, 207);
+     border-bottom: 2px solid palevioletred;
      width: 8%;
      margin-left: 0;
    }
@@ -47,17 +47,6 @@
      border: 1px solid rgb(53, 52, 52);
    }
    
-   .fa {
-     padding: 8px;
-     font-size: 18px;
-     width: 50px;
-     text-align: center;
-     text-decoration: none;
-     color: rgb(187, 182, 182);
-   }
-   .fa:hover{
-     color: rgb(16, 135, 190);;
-   }
    
    
    
@@ -98,7 +87,7 @@
    
     form button{
        width: 9rem;
-       background: rgb(12, 168, 207);
+       background: palevioletred;
        padding: 5px;
        outline: none;
        border-color: transparent;
@@ -113,33 +102,4 @@
     }
    
    
-      @media (max-width: 968px){
-   
-        #fancy-form .form-sections{
-          display: block;
-          width: 100%;
-          text-align: left;
-             }
-   
-         #fancy-form{
-           background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url('../../assets/first.jpg');
-           background-size: cover;
-           background-position: center;
-           height: auto;
-           width: 100%;
-            }
-   
-         .form-sections .Form-right{
-           margin-top: 2rem;
-           margin-bottom: 2rem;
-            }
-   
-           .fa{
-            padding: 8px;
-            font-size: 18px;
-            width: 30px;
-            text-align: center;
-            text-decoration: none;
-            color: rgb(187, 182, 182);
-                }
-             }
+      

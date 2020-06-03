@@ -2,10 +2,8 @@
 
    #pricing{
    
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('../../assets/first.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+   background-color: pink;
+   padding-top: 100px;
    }
 
 
@@ -18,7 +16,6 @@
 
      .price{
       display: grid;
-      grid-template-columns: auto auto auto auto;
       grid-gap: 15px;
      }
 
@@ -64,22 +61,3 @@
      }
   
 
-    @media (max-width: 768px){
-
-      #pricing .price{
-        display: block;
-        width: 95%;
-       margin-left: auto;
-       margin-right: auto;
-      
-     
-      }
-
-        .plan-heading{
-      padding: 3px;
-      background-color: pink;
-      color: #fff;
-       transform: skewY(0deg);
-     }
-
-  }
