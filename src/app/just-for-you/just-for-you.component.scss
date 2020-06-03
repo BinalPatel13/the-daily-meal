@@ -14,7 +14,7 @@ section {
 .section-title h4 {
 	font-size: 40px;
 	text-transform: capitalize;
-	color: #FF5E18;
+	color: palevioletred;
 	position: relative;
 	display: inline-block;
 	padding-bottom: 25px;
@@ -29,7 +29,7 @@ section {
 .section-title h4::before, .section-title h4::after {
 	position: absolute;
 	content: "";
-	background-color: #FF5E18;
+	background-color: palevioletred;
 }
 .single_menu_list img {
 	max-width: 30%;
@@ -57,7 +57,7 @@ section {
 .single_menu_list h4 span {
 	float: right;
 	font-weight: bold;
-	color: #FF5E18;
+	color: palevioletred;
 	font-style: italic;
 }
 p {
